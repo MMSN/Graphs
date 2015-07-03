@@ -1,0 +1,11 @@
+O arquivo contem 3 arquivos .py, um para leitura, outro com o grafo implementado em si, e um para o algoritmo de kruskal, este com os conjuntos disjuntos apresentados em aula.
+
+Para a correta execução do arquivo é preciso da biblioteca string e numpy, acredito que ambas ja venham em sistemas Linux.
+
+Bugs conhecidos:
+- o vetor do python é uma lista encadeada, num grafo com 101442 arestas essa lista nao conseguiu receber todas, ficando em volta de 50 mil, para tanto em grafos com mais de 50 mil arestas acredito que o kruskal nao vai rodar perfeitamente, porem esse é da linguagem.
+- Acredito que nem sempre os algoritmos se dao conta que os grafos nao sao conexos.
+- Na saida do kruskal, a ordem linha-colunas pode estar invertida, exemplo: [1,3] pode estar [3,1]
+
+att,
+Mateus Moreira Silveira do Nascimento
